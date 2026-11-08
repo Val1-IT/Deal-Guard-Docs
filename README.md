@@ -42,7 +42,7 @@ never invent the numbers or get around the check.
 5. *(Optional)* **Rovo:** open Rovo chat and pick the **Deal Guard** agent.
 6. *(Optional)* **MCP clients:** a site admin opens Atlassian Administration → Connected
    apps → Deal Guard → Details → Tools and enables them for the Jira and the Confluence
-   installation. The endpoint is `https://mcp.atlassian.com/forge/44a473d0-07f3-459c-908f-a26941578c42`
+   installation. The endpoint is `https://mcp.atlassian.com/forge/1153023e-26d0-454b-8571-8677330270f0`
    (OAuth 2.1; each call runs with the signed-in user's permissions).
 7. *(Optional)* **Teamwork Graph:** a site admin opens Connected apps → Deal Guard →
    Connections → Teamwork Graph connectors and connects **Deal Guard cash verdicts**.
