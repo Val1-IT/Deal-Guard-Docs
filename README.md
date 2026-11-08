@@ -70,4 +70,4 @@ never invent the numbers or get around the check.
 | `write:object:jira`, `read:object:jira`, `delete:object:jira` | Publish deal verdicts to Teamwork Graph when an admin connects the connector. |
 | `storage:app` | Remember the Teamwork Graph connection id. |
 
-See [PRIVACY.md](PRIVACY.md) for data handling and [SUPPORT.md](SUPPORT.md) for help.
+See [PRIVACY.md](PRIVACY.md) for data handling, [TERMS.md](TERMS.md) for the terms of use and [SUPPORT.md](SUPPORT.md) for help.
