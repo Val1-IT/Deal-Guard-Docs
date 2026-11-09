@@ -12,10 +12,18 @@ When you write, please include:
 
 ## Common questions
 
-**The panel says "NO CASH POLICY".** Deal Guard could not use the Confluence page titled
-`Deal Guard Cash Policy`. Check that exactly one page has that title, that the app is
-installed for Confluence, and that the table has the rows "Minimum cash balance" and
-"Maximum customer deposit" with readable values (for example `Rp5.000.000` and `40%`).
+**The panel shows "SAMPLE DATA".** Neither cash page exists yet, so Deal Guard shows its
+sample company and keeps Approve locked. Click **Create cash pages** in the panel (pick a
+Confluence space first), then replace the sample numbers with your own.
+
+**The panel says a cash page "was not found" or "could not be used".** Deal Guard needs
+exactly one page titled `Deal Guard Cash Position` and one titled `Deal Guard Cash Policy`,
+and the app must be installed for Confluence. The message names the problem, for example
+a missing "Setting | Value" table, a row whose Type is not Bill or Invoice, a date that is
+not YYYY-MM-DD, or a policy amount written in a different currency than the cash position.
+
+**The panel says "Enter this deal's numbers".** The cash pages are fine; save the deal's
+value, supplier cost and dates in the panel and the check runs.
 
 **Approve is refused.** That is the validator working: the message shows the date cash
 falls below the floor and by how much. Change the deal terms in the panel, or ask the
